@@ -1,0 +1,45 @@
+*{
+    background-color: linen;
+}
+
+.link{
+    text-decoration: none;
+    color: black;
+}
+
+header {
+    background-color: rgb(255, 197, 139);
+    width: 100%;
+    position: fixed; 
+    top: 0;
+    left: 0;
+    z-index: 1000999 ; /*حط رقم كبير حتى لا يختفي تحت صوره مثلا */
+    display: flex;
+    justify-content: space-between; /*يفصل بين اعضاء الجروب */
+    align-items: center; /*بيسنطر في النص */
+    padding: 10px; /*المسافه بينه و اي حاجه تانيه */
+ }
+
+.name {
+    text-decoration: none;  /*يزيل الخط الموجود تحت الرابط */
+    text-transform: uppercase; /*يحول الكلام الي capetal */
+    font-weight:  500; 
+    font-size: 1.7em;
+    background-color: rgb(255, 197, 139);
+ }
+
+
+.nav-bar a {
+    background-color: rgb(255, 197, 139);
+
+}
+
+
+.card-sense{
+    background-color: rgb(255, 169, 83);
+    height: 5px;
+    width: 50px;
+    display: inline-block;
+    justify-content: right;  
+}
+
