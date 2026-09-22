@@ -1,43 +1,68 @@
 <!DOCTYPE html>
-<meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+<html lang="ar" dir="rtl">
 <head>
-    <title>\sense-chanel\</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>قناة سينس</title>
     <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
 
-<header> 
-    <a class="name">\sense-name\</a>
-    <nav class="nav-bar">
-           
-            <a href="sections.html" class="link">\sections-where\</a>
-            <a href="" class="link"></a>
-            <a href="#about" class="link">\about\</a>
+<header class="topbar">
+    <a href="#" class="name">اسم القناة</a>
+    <nav class="nav-bar" aria-label="التنقل الرئيسي">
+        <a href="#sections" class="link">الأقسام</a>
+        <a href="#about" class="link">من نحن</a>
+        <a href="#contact" class="link">تواصل</a>
     </nav>
 </header>
 
-<section>
-    <h3>\u want to test ur self\</h3>
-    <p>\so i will lit u to solve an exam\</p>
-    <a href="">
-        <button>\exams\</button> << i will do it next time >>
+<main>
+    <section class="hero" id="sections">
+        <div class="hero-content">
+            <div class="hero-text">
+                <span class="badge">تعلّم • تدرب • اجتهد</span>
+                <h1>طور مهاراتك من خلال تعلم ذكي.</h1>
+                <p>أتقن دروسك الجديدة، اختبر معلوماتك، وابدأ في التحسن يوميًا من خلال تدريب مستهدف وإرشاد متخصص.</p>
+                <div class="hero-actions">
+                    <a href="#about" class="hero-link">
+                        <button class="exam-btn" type="button">ابدأ التعلم</button>
+                    </a>
+                    <a href="#contact" class="secondary-link">عرض الدورات</a>
+                </div>
+            </div>
+            <div class="hero-panel">
+                <div class="mini-card">
+                    <strong>+1200</strong>
+                    <span>مادة دراسية</span>
+                </div>
+                <div class="mini-card">
+                    <strong>24/7</strong>
+                    <span>وصول مستمر للتدريب</span>
+                </div>
+                <div class="mini-card">
+                    <strong>96%</strong>
+                    <span>نجاح الطلاب</span>
+                </div>
+            </div>
+        </div>
+    </section>
 
-    </a>
-</section>
+    <section class="teacher-card" id="about">
+        <div class="card-sense">
+            <img src="https://placehold.co/120x120/orange/white?text=Teacher" alt="معلم سينس" width="120" height="120">
+            <div class="card-text">
+                <h2>لقب المعلم</h2>
+                <h4>هو أفضل معلم في الشرق الأوسط.</h4>
+            </div>
+        </div>
+    </section>
+</main>
 
-<section class="card-sense">
-    <div>
-        <img src="pic.png" alt="sense-pic" width="70px" height="80px">
-        <h2>\sense-nickname\</h2>
-        <h4>\he is the best teacher in the midel east\</h4>
-    </div>
-</section>
-
-<br>
-
-<hr>
-\publish duties, for senses-students\
+<footer id="contact">
+    <hr>
+    <h5 class="c">واجبات منشورة لطلاب سينس</h5>
+</footer>
 
 </body>
 </html>
